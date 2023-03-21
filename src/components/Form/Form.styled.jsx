@@ -28,6 +28,7 @@ export const Form = styled.form`
   
     border: 1px solid ${props => props.theme.colors.textColor};
     border-radius: 5px;
+    background-color: ${props => props.theme.colors.bgcContainer};
 
     &:hover,
     &:focus {

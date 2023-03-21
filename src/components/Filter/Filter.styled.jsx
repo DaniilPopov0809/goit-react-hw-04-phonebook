@@ -1,12 +1,13 @@
 import styled from '@emotion/styled';
-  
-  export const Label = styled.label`
+
+export const Label = styled.label`
   display: flex;
   flex-direction: column;
 
-  font-weight: 500;`;
-  
-    export const Input = styled.input` 
+  font-weight: 500;
+`;
+
+export const Input = styled.input` 
   
     width: 200px;
     margin-bottom: 20px;
@@ -16,6 +17,8 @@ import styled from '@emotion/styled';
   
     border: 1px solid ${props => props.theme.colors.textColor};
     border-radius: 5px;
+
+    background-color: ${props => props.theme.colors.bgcContainer};
 
   &:hover,
   .input:focus {

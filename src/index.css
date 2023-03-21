@@ -9,6 +9,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   color: #19319e;
+
+  display: flex;
+
+  justify-content: center;
+  align-content: center;
 }
 
 code {
@@ -25,10 +30,7 @@ ul {
   padding: 0;
 }
 
-div {
-  padding: 20px 30px;
-}
-
-h1,h2 {
+h1,
+h2 {
   margin-bottom: 20px;
 }
